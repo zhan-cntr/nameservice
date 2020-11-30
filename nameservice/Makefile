@@ -15,7 +15,7 @@ include Makefile.ledger
 all: install
 
 install: go.sum
-		@echo "--> Installing nameserviced & nameservicecli"
+		
 		@go install -mod=readonly $(BUILD_FLAGS) ./cmd/nameserviced
 		@go install -mod=readonly $(BUILD_FLAGS) ./cmd/nameservicecli
 
