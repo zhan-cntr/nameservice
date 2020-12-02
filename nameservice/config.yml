@@ -1,0 +1,9 @@
+version: 1
+accounts:
+  - name: zhan-cntr
+    coins: ["1000nametoken", "100000000stake"]
+  - name: Xane
+    coins: ["500nametoken"]
+validator:
+  name: zhan-cntr
+  staked: "100000000stake"
