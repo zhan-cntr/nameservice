@@ -1,7 +1,7 @@
-package types
+/*package types
 
 import (
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	cryptotypes "github.com/cosmos/cosmos-sdk/tree/master/crypto/types"
 	"github.com/gogo/protobuf/proto"
 )
 
@@ -84,3 +84,4 @@ type TxDecoder func(txBytes []byte) (Tx, error)
 
 // TxEncoder marshals transaction to bytes
 type TxEncoder func(tx Tx) ([]byte, error)
+*/
