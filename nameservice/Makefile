@@ -16,8 +16,8 @@ all: install
 
 install: go.sum
 		@echo "--> Installing centaurusd & centauruscli"
-		@go install -mod=readonly $(BUILD_FLAGS) ./cmd/centaurusd
-		@go install -mod=readonly $(BUILD_FLAGS) ./cmd/centauruscli
+		@go install -mod=readonly $(BUILD_FLAGS) ./cmd/nameserviced
+		@go install -mod=readonly $(BUILD_FLAGS) ./cmd/nameservicecli
 
 go.sum: go.mod
 		@echo "--> Ensure dependencies have not been modified"
